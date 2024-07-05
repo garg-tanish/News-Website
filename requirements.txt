@@ -1,0 +1,15 @@
+react >= ^18.2.0
+react-dom >= ^18.2.0
+react-infinite-scroll-component >= ^6.1.0
+react-router-dom >= ^6.22.0
+react-scripts >= 5.0.1
+react-top-loading-bar >= ^2.3.1
+react-fontawesome >= ^0.2.0
+fontawesome-svg-core >= ^6.5.1
+fortawesome-free-regular-svg-icons >= ^6.5.1
+fortawesome-free-solid-svg-icons >= ^6.5.1
+axios >= ^1.6.8
+cheerio >= ^1.0.0
+cors >= ^2.8.5
+express >= ^4.19.1
+create .eve.local file with REACT_APP_NEWS_APIKEY = '349fced587a84232a1457d5f398201e5' as a content

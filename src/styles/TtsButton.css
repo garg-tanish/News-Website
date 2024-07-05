@@ -1,0 +1,7 @@
+#tts-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  transform: translateY(-50%);
+  position: fixed;
+}
