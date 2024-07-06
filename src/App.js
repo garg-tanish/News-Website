@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
   const pageSize = 7;
-  const apiKey = process.env.REACT_APP_NEWS_APIKEY
+  const apiKey = "APP_NEWS_APIKEY"
 
   const [progress, setProgress] = useState(0)
   const [mode, setMode] = useState('light');
