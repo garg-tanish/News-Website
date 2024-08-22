@@ -12,4 +12,4 @@ axios >= ^1.6.8
 cheerio >= ^1.0.0
 cors >= ^2.8.5
 express >= ^4.19.1
-create .eve.local file with REACT_APP_NEWS_APIKEY = '349fced587a84232a1457d5f398201e5' as a content
+create .eve.local file with REACT_APP_NEWS_APIKEY = 'your key @https://newsapi.org/' as a content

@@ -38,7 +38,6 @@ const News = (props) => {
 
   const fetchData = async (page = 1) => {
     if (totalResults !== articles.length) {
-      console.log(loading)
       setLoading(true)
       const url = ((text === "") ? `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}` : `https://newsapi.org/v2/everything?q=${text}&sortBy=publishedAt&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`)
       const response = await fetch(url);
