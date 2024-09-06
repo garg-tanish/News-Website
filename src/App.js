@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
   const pageSize = 7;
-  const apiKey = "APP_NEWS_APIKEY"
+  const apiKey = "your api key from @https://newsapi.org/"
 
   const [progress, setProgress] = useState(0)
   const [mode, setMode] = useState('light');
