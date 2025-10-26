@@ -1,5 +1,9 @@
 {
   "name": "chat-app",
+  "author": {
+    "name": "Tanish Garg",
+    "email": "mailtotanishgarg@gmail.com"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
